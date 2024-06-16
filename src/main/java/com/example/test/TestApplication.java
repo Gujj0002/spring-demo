@@ -11,7 +11,7 @@ public class TestApplication {
 
 	@GetMapping("/message")
 	private String sendMessage(){
-		return "You have successfully deploy your service!";
+		return "You have successfully deployed your service!";
 	}
 
 	public static void main(String[] args) {
